@@ -8,8 +8,9 @@ import { BiBriefcase } from "react-icons/bi";
 import { FiUsers } from "react-icons/fi";
 import { RiFolderSettingsLine } from "react-icons/ri";
 import Timeline from "./Timeline";
-// import Experience from "../Experience/Experience";
+
 import { Link } from "react-router-dom";
+import Experience from "../component/Experience";
 
 const About = () => {
     useEffect(() => {
@@ -62,7 +63,7 @@ const About = () => {
           </div>
         </div>
         <Timeline></Timeline>
-        {/* <Experience></Experience> */}
+        <Experience></Experience>
       </section>
     );
 };
