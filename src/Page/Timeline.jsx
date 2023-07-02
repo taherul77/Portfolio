@@ -22,7 +22,7 @@ const Timeline = () => {
           contentArrowStyle={{
             borderRight: "7px solid var(--color-bg-variant)",
           }}
-          date="2018 - Present"
+          date="2018 - 2023"
           iconStyle={{
             background: "var(--color-bg-variant)",
             color: "var(--color-white)",
@@ -56,7 +56,7 @@ const Timeline = () => {
           icon={<FaGraduationCap />}
         >
           <h3>Higher Secondary School Certificate</h3>
-          <h5 className="">Tejgaon College</h5>
+          <h5 className="">Govt Shahpur Modhugram College</h5>
           <p className="text-light">
             Science Group, HSC batch of 2018. I started to wondering how a
             website is built. So, started to learn HTML & CSS. I can still how I
@@ -81,7 +81,7 @@ const Timeline = () => {
           icon={<FaGraduationCap />}
         >
           <h3>Secondary School Certificate</h3>
-          <h5 className="">Khilgaon Government High School</h5>
+          <h5 className="">Jamira Bazar Asmotia School And College</h5>
           <p className="text-light">
             Science Group, SSC batch of 2016. In this time my hobby was
             Photography and Cycling. I always want to learn and implement newer
