@@ -14,7 +14,7 @@ const Portfolio = () => {
   const [projects, setProjects] = useState([]);
   const [loading, setLoading] = useState(true);
   useEffect(() => {
-    fetch("http://localhost:5000/projects")
+    fetch("https://portfolio-server-ten-beta.vercel.app/projects")
       .then((res) => res.json())
       .then((data) => {
         setLoading(false);
@@ -82,7 +82,7 @@ const Portfolio = () => {
       <div className="all-project-button">
         <a
           className="btn btn-primary"
-          href="https://github.com/sakib-xrz?tab=repositories"
+          href="https://github.com/taherul77?tab=repositories"
           target={"_blank"}
           rel="noreferrer"
         >

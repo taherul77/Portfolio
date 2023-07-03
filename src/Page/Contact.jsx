@@ -53,7 +53,7 @@ const Contact = () => {
           <article className="contact_option">
             <BiEnvelope className="contact_icon" />
             <h4>Email</h4>
-            <h5>sakibul.islam0808@gmail.com</h5>
+            <h5>sktaherulislamtaz@gmail.com</h5>
             <a
               href="mailto:sakibul.islam0808@gmail.com"
               target="_blank"
@@ -65,7 +65,7 @@ const Contact = () => {
           <article className="contact_option">
             <RiMessengerLine className="contact_icon" />
             <h4>Messenger</h4>
-            <h5>Sakib XRz</h5>
+            <h5>SK Taherul Islam Taz</h5>
             <a
               href="https://m.me/itsonlysakib"
               target="_blank"
@@ -77,7 +77,7 @@ const Contact = () => {
           <article className="contact_option">
             <BsWhatsapp className="contact_icon" />
             <h4>WhatsApp</h4>
-            <h5>01409029742</h5>
+            <h5>01303411697</h5>
             <a
               href="https://api.whatsapp.com/send?phone=+8801409029742"
               target="_blank"

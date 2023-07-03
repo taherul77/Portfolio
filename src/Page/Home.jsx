@@ -3,6 +3,7 @@ import "./home.css";
 import { FaGithubSquare } from "react-icons/fa";
 import { FaFacebookSquare } from "react-icons/fa";
 import CTA from "./CTA";
+import Img from "../assets/Taz-removebg-preview.png"
 
 
 
@@ -41,7 +42,7 @@ const Home = () => {
       <div className="container heder-content header_container">
         <div className="header-content animate__animated animate__slideInDown">
           <div className="me">
-            <img src='' alt="" />
+            <img src={Img} alt="" />
           </div>
           <h5>Hello I'm</h5>
           <h1>Sk Taherul Islam Taz</h1>

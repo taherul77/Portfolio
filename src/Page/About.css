@@ -17,8 +17,8 @@
   }
   
   .about_me_image img {
-    width: 70%;
-    border-radius: 2rem;
+    width: 100%;
+    border-radius: 1.5rem;
   }
   
   .about_cards {

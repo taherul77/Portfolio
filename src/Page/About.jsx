@@ -1,6 +1,7 @@
 import AOS from "aos";
 import 'aos/dist/aos.css';
 import { useEffect } from "react";
+import img from "../assets/Taz.jpg"
 
 import "./About.css";
 // import AboutImage from "./../../assets/formal-image.png";
@@ -25,7 +26,7 @@ const About = () => {
         <div className="container about_container">
           <div className="about_me">
             <div className="about_me_image">
-              <img src="" alt="" />
+              <img src={img} alt="" />
             </div>
           </div>
           <div className="about_content">
