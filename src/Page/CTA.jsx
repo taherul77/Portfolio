@@ -8,7 +8,7 @@ const CTA = () => {
   return (
     <>
       <div className="cta">
-        <a className="btn" href='' download>
+        <a className="btn btn-primary" href='' download>
           Download Resume
         </a>
         <Link className="btn btn-primary" to="/contact">

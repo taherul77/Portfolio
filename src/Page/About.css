@@ -33,6 +33,7 @@
     border-radius: 1rem;
     padding: 2rem;
     text-align: center;
+    align-items: center;
     transition: var(--transition);
   }
   
@@ -46,6 +47,7 @@
     color: var(--color-primary);
     font-size: 1.4rem;
     margin-bottom: 1rem;
+    
   }
   
   .about_card h5 {
